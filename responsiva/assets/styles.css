@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #CBD5E1;
+}
+header {
+    background: #FFFFFF;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.faq{
+    background: #F9FAFC;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.faq p{
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+}
+.pyr{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto; 
+}
+@media (min-width: 1024px) {
+    main {
+        padding: 40px;
+    }
+
+    .faq p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 640px) {
+    main {
+        padding: 20px;
+    }
+
+    .faq p {
+        font-size: 10px;
+    }
+}
